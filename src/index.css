@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+:root { color-scheme: light; }
+
+/* optional: smooth fonts */
+html, body, #root { height: 100%; }
+body { margin: 0; }
