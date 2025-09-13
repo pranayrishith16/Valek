@@ -1,11 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { PaperAirplaneIcon } from '@heroicons/react/24/solid'
 
-/**
- * Chat page
- * - Frontend-only demo that echoes guidance.
- * - To connect to your backend, replace `mockReply` with a fetch to your API.
- */
 export default function Chat() {
   const [messages, setMessages] = useState([
     { role: 'assistant', content: 'Hi! I\'m VeritlyAI. Ask me anything about your legal docs.' }
