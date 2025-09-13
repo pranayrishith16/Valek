@@ -4,7 +4,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import Login from './pages/Login.jsx'
-import ZAIChat from './pages/ZAIChat.jsx'
+import ZAIChat from './pages/mainChat.jsx'
+
 
 const navigation = [
   { name: 'Product', href: '#' },
